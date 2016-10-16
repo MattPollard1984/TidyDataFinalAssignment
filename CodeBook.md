@@ -12,8 +12,8 @@ README.txt - details on the data.
 
 Plus two folders - TRAIN and TEST - each containing
 
-subject_XXXX.txt - list of SubjectIDs for the dataset.  
-Y_XXXX.txt - list of ActivityIDs for the dataset.  
-X_XXXX.txt - actual data - 561 columns, each matching the corresponding feature in features.txt.   
+* subject_XXXX.txt - list of SubjectIDs for the dataset.  
+* Y_XXXX.txt - list of ActivityIDs for the dataset.  
+* X_XXXX.txt - actual data - 561 columns, each matching the corresponding feature in features.txt.   
 (where XXXX is TRAIN or TEST)  
 
