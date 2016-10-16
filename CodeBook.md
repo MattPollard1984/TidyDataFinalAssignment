@@ -18,27 +18,27 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
 
 # Tables Created In Scripts
 
-featureNames
-activityNames
+* featureNames
+* activityNames
 
-trainIn_X
-trainIn_Y
-trainIn_sub
-trainIn
+* trainIn_X
+* trainIn_Y
+* trainIn_sub
+* trainIn
 
-testIn_X
-testIn_Y
-testIn_sub
-testIn
+* testIn_X
+* testIn_Y
+* testIn_sub
+* testIn
 
-combData
+* combData
 
-cols_m
-cols_s
+* cols_m
+* cols_s
 
-extractData
-namedData
+* extractData
+* namedData
 
-colsToAgg
-meltData
-dataOut
+* colsToAgg
+* meltData
+* dataOut
