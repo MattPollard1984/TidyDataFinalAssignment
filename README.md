@@ -4,8 +4,8 @@ Coursera Tidy Data Course - Final Assignment
 All processing included in run_analysis.r
 
 # Libraries required
-dplyr
-reshapre
+dplyr  
+reshape2  
 
 # Processes
 1. Set up Libraries
@@ -26,6 +26,6 @@ reshapre
 9. Aggregate data to subjectID and activityID using melt and dcast
 10. Write table out to text file
 
-#Other
+# Other
 The code to read the table back into R is as follows:
 readBackIn <- read.table("step5_output_table.txt", header = TRUE)
