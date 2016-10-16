@@ -1,2 +1,7 @@
-code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, 
-along with units, and any other relevant information.
+
+
+# Input Files 
+
+Downloaded from here:  
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+
