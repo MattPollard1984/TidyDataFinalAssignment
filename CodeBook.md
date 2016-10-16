@@ -24,6 +24,7 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
 * activityNames
   + read in "activity_labels.txt"
   + rename columns to "actID" and "activityName"
+       
 * trainIn_X 
   + read in "train\X_train.txt"
   + rename columns to be same as data stored in featureNames$featureName
@@ -34,10 +35,17 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
   + read in "train\subject_train.txt"
   + renamecolumn to be "subjectID"
 * trainIn - combine trainIn_sub, trainIn_Y and trainIn_X (in that other)
-* testIn_X
+
+* testIn_X 
+  + read in "test\X_test.txt"
+  + rename columns to be same as data stored in featureNames$featureName
 * testIn_Y
+  + read in "test\Y_test.txt"
+  + rename column to be "activityID"
 * testIn_sub
-* testIn
+  + read in "test\subject_test.txt"
+  + renamecolumn to be "subjectID"
+* trainIn - combine trainIn_sub, trainIn_Y and trainIn_X (in that other)
 * combData
 * cols_m
 * cols_s
