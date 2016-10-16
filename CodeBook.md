@@ -37,6 +37,7 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
   + read in "train\subject_train.txt"
   + renamecolumn to be "subjectID"
 * trainIn - combine trainIn_sub, trainIn_Y and trainIn_X (in that other)  
+
 ## Test Input Data
 * testIn_X 
   + read in "test\X_test.txt"
@@ -48,6 +49,7 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
   + read in "test\subject_test.txt"
   + renamecolumn to be "subjectID"
 * trainIn - combine trainIn_sub, trainIn_Y and trainIn_X (in that other)  
+
 ## Processing Tables  
 * combData
 * cols_m
