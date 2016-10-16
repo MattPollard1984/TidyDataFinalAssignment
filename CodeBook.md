@@ -18,7 +18,7 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
 
 # Tables Created In Scripts
 
-## Dimension Tables
+### Dimension Tables
 * featureNames 
   + read in "features.txt"
   + rename columns to "featureID" and "featureName"
@@ -26,7 +26,7 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
   + read in "activity_labels.txt"
   + rename columns to "actID" and "activityName"
   
-## Train Input Data
+### Train Input Data
 * trainIn_X 
   + read in "train\X_train.txt"
   + rename columns to be same as data stored in featureNames$featureName
@@ -38,7 +38,7 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
   + renamecolumn to be "subjectID"
 * trainIn - combine trainIn_sub, trainIn_Y and trainIn_X (in that other)  
 
-## Test Input Data
+### Test Input Data
 * testIn_X 
   + read in "test\X_test.txt"
   + rename columns to be same as data stored in featureNames$featureName
@@ -50,7 +50,7 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
   + renamecolumn to be "subjectID"
 * testIn - combine testIn_sub, testIn_Y and testIn_X (in that other)  
 
-## Processing Tables  
+### Processing Tables  
 * combData - combine trainIn and testIn using rbind
 * cols_m - get true/false list of columns from combData that contain "-mode()"
   + columns 1 and 2 are set to be TRUE so there are included in the extraction, as they are subjectID and activityID
