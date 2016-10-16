@@ -16,4 +16,29 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
 * Y_XXXX.txt - list of ActivityIDs for the dataset.  
 * X_XXXX.txt - actual data - 561 columns, each matching the corresponding feature in features.txt.   
 
+# Tables Created In Scripts
 
+featureNames
+activityNames
+
+trainIn_X
+trainIn_Y
+trainIn_sub
+trainIn
+
+testIn_X
+testIn_Y
+testIn_sub
+testIn
+
+combData
+
+cols_m
+cols_s
+
+extractData
+namedData
+
+colsToAgg
+meltData
+dataOut
