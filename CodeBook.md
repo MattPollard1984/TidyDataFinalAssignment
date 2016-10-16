@@ -18,27 +18,23 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
 
 # Tables Created In Scripts
 
-* featureNames
+* featureNames 
+  + read in "features.txt"
+  + rename columns to "featureID" and "featureName"
 * activityNames
-
 * trainIn_X
 * trainIn_Y
 * trainIn_sub
 * trainIn
-
 * testIn_X
 * testIn_Y
 * testIn_sub
 * testIn
-
 * combData
-
 * cols_m
 * cols_s
-
 * extractData
 * namedData
-
 * colsToAgg
 * meltData
 * dataOut
