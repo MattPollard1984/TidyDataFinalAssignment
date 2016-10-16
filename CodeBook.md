@@ -48,14 +48,23 @@ Plus two folders - TRAIN and TEST - each containing (where XXXX is TRAIN or TEST
 * testIn_sub
   + read in "test\subject_test.txt"
   + renamecolumn to be "subjectID"
-* trainIn - combine trainIn_sub, trainIn_Y and trainIn_X (in that other)  
+* testIn - combine testIn_sub, testIn_Y and testIn_X (in that other)  
 
 ## Processing Tables  
-* combData
-* cols_m
-* cols_s
-* extractData
-* namedData
-* colsToAgg
-* meltData
-* dataOut
+* combData - combine trainIn and testIn using rbind
+* cols_m - get true/false list of columns from combData that contain "-mode()"
+  + columns 1 and 2 are set to be TRUE so there are included in the extraction, as they are subjectID and activityID
+* cols_s - get true/false list of columns from combData that contain "-std()"
+* extractData - extract the columns containing "-mode()" or "-std()" from combData
+* namedData - join extractData to activityNames table to get the descriptive activityName data
+* colsToAgg - list of columns in namedData. Used in the calculation of the mean to select appropriate columns
+* meltData - melt namedData to be by ActivityID, SubjectID (and ActivityName)
+* dataOut - calculate mean of all variables by ActivityID and SubjectID (and ActivityName) 
+
+# Output Files
+
+One output file is created: step5_output_table.txt  
+
+This contains the contents of dataOut and is created via:  
+write.table(dataOut, "step5_output_table.txt", row.name=FALSE)
+
