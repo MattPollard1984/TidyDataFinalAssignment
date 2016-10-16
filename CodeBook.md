@@ -74,6 +74,8 @@ The output column headings in this data are
 * subjectID
 * followed by the 82 elemeants in "features.txt" that contain either the text "-mean()" or "-std()"
 
+A full list of columns is given below.  
+
  [1] "activityID"                     
  [2] "activityName"                   
  [3] "subjectID"                      
@@ -149,7 +151,7 @@ The output column headings in this data are
 [73] "fBodyAccMag-meanFreq()"         
 [74] "fBodyBodyAccJerkMag-mean()"     
 [75] "fBodyBodyAccJerkMag-std()"      
-[76] "fBodyBodyAccJerkMag-meanFreq()" 
+[76] "fBodyBodyAccJerkMag-meanFreq()"   
 [77] "fBodyBodyGyroMag-mean()"        
 [78] "fBodyBodyGyroMag-std()"         
 [79] "fBodyBodyGyroMag-meanFreq()"    
